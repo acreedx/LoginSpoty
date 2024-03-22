@@ -1,0 +1,22 @@
+create database SpotifyBD;
+use SpotifyBD;
+create table Usuarios(
+ Id int identity primary key,
+ Nombre varchar(50) NOT NULL,
+ Apellido varchar(50) NOT NULL,
+ Nombre_Usuario varchar(50) NOT NULL,
+ Correo varchar(50) NOT NULL,
+ Password varchar(10) NOT NULL,
+ Intentos_password smallint NOT NULL,
+ Fecha_De_Actualizacion date NOT NULL,
+ Estado smallint NOT NULL, 
+);
+create table Audi_Usuarios(
+ Id int identity primary key,
+ Usuarios_Id_Usuario int NOT NULL,
+ FecUltAct date NOT NULL,
+ AccionRealizada varchar(max) NOT NULL
+);
+ALTER TABLE Audi_Usuarios  WITH CHECK ADD  CONSTRAINT [Audi_Usuarios_Usuarios_FK] FOREIGN KEY(Usuarios_Id_Usuario)
+REFERENCES Usuarios (Id)
+GO

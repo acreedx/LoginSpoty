@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Seguridad Informática\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\LoginAplicacion.csproj": {}
+    "G:\\Univalle\\Séptimo semestre\\Auditoría y Seguridad Informatica\\LoginSpoty\\LoginAplicacion\\LoginAplicacion\\LoginAplicacion.csproj": {}
   },
   "projects": {
-    "D:\\Seguridad Informática\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\LoginAplicacion.csproj": {
+    "G:\\Univalle\\Séptimo semestre\\Auditoría y Seguridad Informatica\\LoginSpoty\\LoginAplicacion\\LoginAplicacion\\LoginAplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Seguridad Informática\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\LoginAplicacion.csproj",
+        "projectUniqueName": "G:\\Univalle\\Séptimo semestre\\Auditoría y Seguridad Informatica\\LoginSpoty\\LoginAplicacion\\LoginAplicacion\\LoginAplicacion.csproj",
         "projectName": "LoginAplicacion",
-        "projectPath": "D:\\Seguridad Informática\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\LoginAplicacion.csproj",
-        "packagesPath": "C:\\Users\\ALUMNO\\.nuget\\packages\\",
-        "outputPath": "D:\\Seguridad Informática\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\obj\\",
+        "projectPath": "G:\\Univalle\\Séptimo semestre\\Auditoría y Seguridad Informatica\\LoginSpoty\\LoginAplicacion\\LoginAplicacion\\LoginAplicacion.csproj",
+        "packagesPath": "C:\\Users\\Familia\\.nuget\\packages\\",
+        "outputPath": "G:\\Univalle\\Séptimo semestre\\Auditoría y Seguridad Informatica\\LoginSpoty\\LoginAplicacion\\LoginAplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ALUMNO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Familia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -67,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
