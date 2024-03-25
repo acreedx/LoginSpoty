@@ -1,0 +1,136 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@model LoginAplicacion.Model.Usuario
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+    <script src="https://www.google.com/recaptcha/api.js" defer></script>
+</head>
+<body>
+    <main>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <div>
+            <center>
+                <br />
+                <br />
+                <br />
+                <br />
+                <h1 style="color: white">!Bienvenido al sistema @User.Identity.Name</h1>
+                <br />
+                <br />
+                <a asp-area=""
+                   asp-controller="Login"
+                   asp-action="Salir"
+                   class="button-close_session">
+                    Cerrar sesión?
+                </a>
+            </center>
+        </div>
+    }
+    else
+    {
+          <div class="login-wrap">
+              <div class="login-html">
+                  <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Iniciar sesión</label>
+                  <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Crear cuenta</label>
+                  <div class="login-form">
+                      <form asp-controller="Login" asp-action="Index">
+                          <div asp-validation-summary="ModelOnly"></div>
+                          <div class="sign-in-htm">
+                              <div>
+                                  <br><br>
+                              </div>
+                              <div class="group">
+                                  <label asp-for="NombreUsuario" class="label">Nombre de usuario</label>
+                                  <input asp-for="NombreUsuario" id="NombreUsuario" required type="text" name="NombreUsuario" type="text" class="input">
+                              </div>
+                              <div class="group">
+                                  <label asp-for="Password" class="label">Contraseña</label>
+                                  <input asp-for="Password" id="Password" required type="password" class="input" data-type="password">
+                              </div>
+                              <!--<div class="group">
+                                  <input id="check" type="checkbox" class="check" checked>
+                                  <label for="check"><span class="icon"></span> Keep me Signed in</label>
+                              </div>-->
+                              <center>
+                                  <div class="g-recaptcha"
+                                       data-sitekey="@ViewBag.SiteKey"
+                                       data-callback="recaptchaCallback">
+                                  </div>
+                                  <br />
+                              </center>
+                              @if (ViewBag.Error != null)
+                              {
+                                  <div>
+
+                                      <p style="color:red;">@ViewBag.Error</p>
+
+                                  </div>
+                              }
+                              @if (ViewBag.Captcha != null)
+                              {
+                                  <div>
+
+                                      <p style="color:red;">@ViewBag.Captcha</p>
+
+                                  </div>
+                              }
+                              @if (ViewBag.Bloqueado != null)
+                              {
+                                  <div>
+
+                                      <p style="color:red;">@ViewBag.Bloqueado</p>
+
+                                  </div>
+                              }
+                              <div class="group">
+                                  <input type="submit" class="button" value="Iniciar sesión">
+                              </div>
+                              <div class="hr"></div>
+                              <div class="foot-lnk">
+                                  <a asp-area="" asp-controller="Login" asp-action="ChangePassword">Cambio de contraseña?</a>
+                              </div>
+                          </div>
+                      </form>
+                        <form asp-controller="Login" asp-action="CrearCuenta">
+                            <div asp-validation-summary="ModelOnly"></div>
+                          <div class="sign-up-htm">
+                                <div class="group">
+                                    <label asp-for="NombreCompleto" class="label">Nombre completo</label>
+                                    <input asp-for="NombreCompleto" id="NombreCompleto" required name="NombreCompleto" type="text" class="input">
+                                </div>
+                               <div class="group">
+                                   <label asp-for="NombreUsuario" class="label">Nombre de usuario</label>
+                                   <input asp-for="NombreUsuario" id="NombreUsuario" required name="NombreUsuario" type="text" class="input">
+                               </div>
+                               <div class="group">
+                                   <label asp-for="Correo" class="label">Correo</label>
+                                   <input asp-for="Correo" id="Correo" required type="email" name="Correo" class="input">
+                               </div>
+                               <div class="group">
+                                    <label asp-for="Password" class="label">Contraseña</label>
+                                    <input asp-for="Password" id="Password" required type="password" name="Password" class="input" data-type="password">
+                               </div>
+                               <div class="group">
+                                   <input type="submit" class="button" value="Crear cuenta">
+                               </div>
+                               <div class="hr"></div>
+                               <div class="foot-lnk">
+                                   <label for="tab-1">Ya es miembro?</label>
+                               </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+    }
+    </main>
+</body>
+</html>

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\LoginAplicacion.bundle.scp.css"
     },
     {
+      "Id": "G:\\Univalle\\Séptimo semestre\\Auditoría y Seguridad Informatica\\LoginSpoty\\LoginAplicacion\\LoginAplicacion\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "G:\\Univalle\\Séptimo semestre\\Auditoría y Seguridad Informatica\\LoginSpoty\\LoginAplicacion\\LoginAplicacion\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

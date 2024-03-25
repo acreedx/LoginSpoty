@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F/SC4pWXMFrDZtz9Dic0HCTG/ZypC4409rUC//DOL00=",
+  "Hash": "Yr4JB4JXOhd5caRvJWCiq6JJiT5ts1Z9GWeNj+ZF2JQ=",
   "Source": "LoginAplicacion",
   "BasePath": "_content/LoginAplicacion",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "G:\\Univalle\\Séptimo semestre\\Auditoría y Seguridad Informatica\\LoginSpoty\\LoginAplicacion\\LoginAplicacion\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LoginAplicacion.bundle.scp.css"
+    },
+    {
+      "Identity": "G:\\Univalle\\Séptimo semestre\\Auditoría y Seguridad Informatica\\LoginSpoty\\LoginAplicacion\\LoginAplicacion\\wwwroot\\css\\login.css",
+      "SourceId": "LoginAplicacion",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\Univalle\\Séptimo semestre\\Auditoría y Seguridad Informatica\\LoginSpoty\\LoginAplicacion\\LoginAplicacion\\wwwroot\\",
+      "BasePath": "_content/LoginAplicacion",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "G:\\Univalle\\Séptimo semestre\\Auditoría y Seguridad Informatica\\LoginSpoty\\LoginAplicacion\\LoginAplicacion\\wwwroot\\css\\site.css",
