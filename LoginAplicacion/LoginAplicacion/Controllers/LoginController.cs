@@ -9,6 +9,7 @@ using System.Text.Json.Nodes;
 using Microsoft.IdentityModel.Tokens;
 using LoginAplicacion.Models;
 using LoginAplicacion.Model;
+using System.Globalization;
 
 namespace LoginAplicacion.Controllers
 {
@@ -145,11 +146,17 @@ namespace LoginAplicacion.Controllers
             }
             if (usuario.NuevoPassword != usuario.ConfirmarNuevoPassword)
             {
-                ViewBag.Error = "El nuevo password y la confirmacion deben coincidir";
+                ViewBag.Error = "El nuevo password y la confirmacion deben coincidir"; 
+                return View();
+            }
+            if (usuario.NuevoPassword == usuario.Password)
+            {
+                ViewBag.Error = "El nuevo password debe ser distinto al password actual";
+                return View();
             }
             if (!validator.EsPasswordSegura(usuario.NuevoPassword))
             {
-                ViewBag.Error = "La contraseña debe contener al menos un número, una letra y de 1 a 10 caracteres";
+                ViewBag.Error = "La contraseña debe contener al menos un número, una letra y 10 caracteres";
                 return View();
             }
             Usuario usuario1 = _contexto.Usuarios

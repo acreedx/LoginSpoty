@@ -47,7 +47,8 @@ public partial class SpotifyBdContext : DbContext
             entity.Property(e => e.Correo)
                 .HasMaxLength(50)
                 .IsUnicode(false);
-            entity.Property(e => e.FechaDeActualizacion).HasColumnName("Fecha_De_Actualizacion");
+            entity.Property(e => e.FechaDeActualizacion)
+                .HasColumnName("Fecha_De_Actualizacion");
             entity.Property(e => e.IntentosPassword).HasColumnName("Intentos_password");
             entity.Property(e => e.NombreCompleto)
                 .HasMaxLength(100)

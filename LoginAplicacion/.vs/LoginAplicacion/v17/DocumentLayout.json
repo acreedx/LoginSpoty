@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Seguridad Inform\u00E1tica\\SpotifyLogin\\LoginAplicacion\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{182385C1-169F-459E-90C1-65B6BB6CF57D}|LoginAplicacion\\LoginAplicacion.csproj|d:\\seguridad inform\u00E1tica\\spotifylogin\\loginaplicacion\\loginaplicacion\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182385C1-169F-459E-90C1-65B6BB6CF57D}|LoginAplicacion\\LoginAplicacion.csproj|solutionrelative:loginaplicacion\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182385C1-169F-459E-90C1-65B6BB6CF57D}|LoginAplicacion\\LoginAplicacion.csproj|d:\\seguridad inform\u00E1tica\\spotifylogin\\loginaplicacion\\loginaplicacion\\models\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182385C1-169F-459E-90C1-65B6BB6CF57D}|LoginAplicacion\\LoginAplicacion.csproj|solutionrelative:loginaplicacion\\models\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182385C1-169F-459E-90C1-65B6BB6CF57D}|LoginAplicacion\\LoginAplicacion.csproj|d:\\seguridad inform\u00E1tica\\spotifylogin\\loginaplicacion\\loginaplicacion\\models\\usuariocreacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182385C1-169F-459E-90C1-65B6BB6CF57D}|LoginAplicacion\\LoginAplicacion.csproj|solutionrelative:loginaplicacion\\models\\usuariocreacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182385C1-169F-459E-90C1-65B6BB6CF57D}|LoginAplicacion\\LoginAplicacion.csproj|d:\\seguridad inform\u00E1tica\\spotifylogin\\loginaplicacion\\loginaplicacion\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182385C1-169F-459E-90C1-65B6BB6CF57D}|LoginAplicacion\\LoginAplicacion.csproj|solutionrelative:loginaplicacion\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182385C1-169F-459E-90C1-65B6BB6CF57D}|LoginAplicacion\\LoginAplicacion.csproj|d:\\seguridad inform\u00E1tica\\spotifylogin\\loginaplicacion\\loginaplicacion\\model\\audiusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182385C1-169F-459E-90C1-65B6BB6CF57D}|LoginAplicacion\\LoginAplicacion.csproj|solutionrelative:loginaplicacion\\model\\audiusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{182385C1-169F-459E-90C1-65B6BB6CF57D}|LoginAplicacion\\LoginAplicacion.csproj|d:\\seguridad inform\u00E1tica\\spotifylogin\\loginaplicacion\\loginaplicacion\\data\\spotifybdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{182385C1-169F-459E-90C1-65B6BB6CF57D}|LoginAplicacion\\LoginAplicacion.csproj|solutionrelative:loginaplicacion\\data\\spotifybdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PasswordValidator.cs",
+              "DocumentMoniker": "D:\\Seguridad Inform\u00E1tica\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\Models\\PasswordValidator.cs",
+              "RelativeDocumentMoniker": "LoginAplicacion\\Models\\PasswordValidator.cs",
+              "ToolTip": "D:\\Seguridad Inform\u00E1tica\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\Models\\PasswordValidator.cs",
+              "RelativeToolTip": "LoginAplicacion\\Models\\PasswordValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:10:02.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AudiUsuario.cs",
+              "DocumentMoniker": "D:\\Seguridad Inform\u00E1tica\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\Model\\AudiUsuario.cs",
+              "RelativeDocumentMoniker": "LoginAplicacion\\Model\\AudiUsuario.cs",
+              "ToolTip": "D:\\Seguridad Inform\u00E1tica\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\Model\\AudiUsuario.cs",
+              "RelativeToolTip": "LoginAplicacion\\Model\\AudiUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:07:08.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\Seguridad Inform\u00E1tica\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\Model\\Usuario.cs",
+              "RelativeDocumentMoniker": "LoginAplicacion\\Model\\Usuario.cs",
+              "ToolTip": "D:\\Seguridad Inform\u00E1tica\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\Model\\Usuario.cs",
+              "RelativeToolTip": "LoginAplicacion\\Model\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T19:47:16.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioCreacion.cs",
+              "DocumentMoniker": "D:\\Seguridad Inform\u00E1tica\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\Models\\UsuarioCreacion.cs",
+              "RelativeDocumentMoniker": "LoginAplicacion\\Models\\UsuarioCreacion.cs",
+              "ToolTip": "D:\\Seguridad Inform\u00E1tica\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\Models\\UsuarioCreacion.cs",
+              "RelativeToolTip": "LoginAplicacion\\Models\\UsuarioCreacion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T19:47:09.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SpotifyBdContext.cs",
+              "DocumentMoniker": "D:\\Seguridad Inform\u00E1tica\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\Data\\SpotifyBdContext.cs",
+              "RelativeDocumentMoniker": "LoginAplicacion\\Data\\SpotifyBdContext.cs",
+              "ToolTip": "D:\\Seguridad Inform\u00E1tica\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\Data\\SpotifyBdContext.cs",
+              "RelativeToolTip": "LoginAplicacion\\Data\\SpotifyBdContext.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwDEAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T19:23:01.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Seguridad Inform\u00E1tica\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "LoginAplicacion\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Seguridad Inform\u00E1tica\\SpotifyLogin\\LoginAplicacion\\LoginAplicacion\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "LoginAplicacion\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAqwJkAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T19:17:27.318Z",
+              "EditorCaption": ""
             }
           ]
         }
